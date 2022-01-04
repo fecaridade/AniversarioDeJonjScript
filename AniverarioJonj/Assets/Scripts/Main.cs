@@ -37,23 +37,12 @@ public class Main : MonoBehaviour
         float minutosRestantes = 35 - Minutos;
         tempo_Restante.text = "Tempo Restante Para supresa" + "\n"+horasRestantes + ":" + minutosRestantes + "\n" + "\n" +"Escute uma musica enquanto a hora nao chega...";
         print(Hora+" "+Minutos);
-        if (Hora == 14 && Minutos == 35)
+        if (Hora == 14 && Minutos == 40)
         {
             
             AudioManager.Instance.PlayMusic(musicaAniversario,1f);
         }
-        else if (Hora == 14 && Minutos == 33)
-        {
-            podesortear = false;
-        }
-        else if (Hora == 14 && Minutos == 5)
-        {
-            podesortear = true;
-        }
-        else if (podesortear && !AudioManager.Instance.tocando)
-        {
-            sorteiaMusica();
-        }
+        
         
     }
 
