@@ -1,12 +1,7 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
-using UnityEditor.AssetImporters;
+
 using UnityEngine;
-using Random = UnityEngine.Random;
-using Vector2 = UnityEngine.Vector2;
-using Vector3 = UnityEngine.Vector3;
+
+
 
 public class MovimentoMexicano : MonoBehaviour
 {
